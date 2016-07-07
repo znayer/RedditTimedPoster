@@ -36,6 +36,7 @@ class Submission(object):
 		submission = r.submit(self.subreddit, submission_title, url=self.submit_link)
 		print "Submitted post"
 		print "Shortlink: "
+		print submission.short_link
 
 	def interval(self, low, high):
 		lower_min = low.total_min
