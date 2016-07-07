@@ -76,7 +76,7 @@ class TimeConverter(object):
 
 # Import Data from JSON
 s = {}
-s = simplejson.load(open("config.json"))
+s = simplejson.load(open("submission.json"))
 print "Submission data has been loaded"
 
 # Get time to post submission
